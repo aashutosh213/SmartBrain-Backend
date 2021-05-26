@@ -28,7 +28,7 @@ const db = knex({
     port: "5432",
     user: "postgres",
     password: "aashu213",
-    database: "Smart-brain",
+    database: "postgres",
   },
   pool: { min: 0, max: 7 },
 });
